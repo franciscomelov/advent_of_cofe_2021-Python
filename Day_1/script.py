@@ -11,6 +11,7 @@ with open("input.txt", "r") as measurements:
 
         if prev_value < curr_value:
             increased += 1
+
         prev_value = curr_value
 
     print(increased)
